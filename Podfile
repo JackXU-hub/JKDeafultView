@@ -5,7 +5,7 @@ target 'JKDeafultViewDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'JKDeafultView', :path => 'Lib/JKDeafultView'
+  #pod 'JKDeafultView', :path => 'Lib/JKDeafultView'
   
   target 'JKDeafultViewDemoTests' do
     inherit! :search_paths
@@ -16,5 +16,5 @@ target 'JKDeafultViewDemo' do
     inherit! :search_paths
     # Pods for testing
   end
-
+   pod 'JKDeafultView'
 end

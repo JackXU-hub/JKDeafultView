@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <JKDefaultView.h>
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    JKDefaultView *defV = [JKDefaultView defaultView:@"" withTitle:@""];
+    defV.backgroundColor = [UIColor redColor];
+    [defV showOnView:self.view type:DefeatViewNoNetWork];
 }
 
 
