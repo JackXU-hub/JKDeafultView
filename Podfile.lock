@@ -1,0 +1,16 @@
+PODS:
+  - JKDeafultView (0.1.0)
+
+DEPENDENCIES:
+  - JKDeafultView (from `Lib/JKDeafultView`)
+
+EXTERNAL SOURCES:
+  JKDeafultView:
+    :path: Lib/JKDeafultView
+
+SPEC CHECKSUMS:
+  JKDeafultView: daa610efb76dbc5538c9d78ce974dc31ff818ab7
+
+PODFILE CHECKSUM: 28010f0cb2a5255e8daa83a0d8801b6ace3ab542
+
+COCOAPODS: 1.7.0
